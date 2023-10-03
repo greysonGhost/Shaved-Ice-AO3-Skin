@@ -1,0 +1,428 @@
+/*
+================= main background colour =================
+*/
+
+body {
+  background: #21272b;
+  color: #c0e1f7; /* works for basically everything but links */
+}
+
+/*
+================= LOGO =================
+*/
+
+#header h1.heading a {
+  color: #c0e1f7;
+  font-family: "Lucida Console";
+}
+
+/*
+================= GREETING =================
+*/
+
+/* items font */
+#greeting a,
+#greeting a:hover,
+#greeting a:focus,
+#greeting a.dropdown-toggle,
+#greeting a.dropdown-toggle:hover,
+#greeting a.dropdown-toggle:focus,
+#greeting ul.menu.dropdown-menu li a,
+#greeting ul.menu.dropdown-menu li a:hover,
+#greeting ul.menu.dropdown-menu li a:focus,
+#greeting .user a:hover,
+#greeting .user a:focus {
+  color: #c0e1f7;
+  font-family: "Lucida Console";
+}
+
+/* dropdown menus formatting */
+#greeting ul.menu.dropdown-menu {
+  background: #49565e;
+  box-shadow: 3px 3px #718491;
+  border: none;
+  margin: none;
+}
+
+/* menu names foramtting */
+#greeting a:hover,
+#greeting a:focus,
+#greeting a.dropdown-toggle:hover,
+#greeting a.dropdown-toggle:focus,
+#greeting ul.menu.dropdown-menu li a:hover,
+#greeting ul.menu.dropdown-menu li a:focus,
+#greeting .user a:hover,
+#greeting .user a:focus,
+#greeting .dropdown:hover a {
+  background: #49565e;
+}
+
+/*
+================= NAVBAR =================
+*/
+
+/* main bar */
+#header .primary {
+  background: #49565e;
+  box-shadow: 5px 5px #718491;
+}
+
+/* drop down menu */
+#header .primary ul.menu.dropdown-menu {
+  background: #49565e;
+  box-shadow: 3px 3px #718491;
+  width: fit-content;
+}
+
+/* dropdown items */
+#header .primary a, 
+#header .primary a:visited, 
+#header .primary .open a, 
+#header .primary .dropdown:hover a, 
+#header .primary .dropdown a:focus {
+  color: #c0e1f7;
+  font-family: "Lucida Console";
+}
+
+/* hovering main items */
+/* right clicking items breaks */
+#header .primary .actions a:hover
+#header .primary .actions a:focus,
+#header .primary .dropdown:hover a, 
+#header .primary .open a {
+    background: #49565e;
+}
+
+/*
+================= HOMEPAGE =================
+*/
+
+/* favourited tags formatting */
+.splash .favorite li:nth-of-type(2n+1) a {
+  background: #49565e;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+1) a:focus,
+a.tag:hover {
+  color: #21272b;
+  background: #718491;
+}
+
+/* remove tweets and widen random marked for later */
+div.latest.tweets.module {
+  display: none !important;
+}
+
+.random.readings.module.odd {
+  width: 100%;
+}
+
+/*
+================= DASHBOARD =================
+*/
+
+/* remove the small colour blocks above and below dashboard items */
+#dashboard.own {
+  border-top: none;
+  border-bottom: none;
+}
+
+/* change the current selected colour for dashboard */
+#dashboard .current {
+  background: #49565e;
+  color: #21272b;
+  font-size: 0.85rem;
+}
+
+#dashboard a {
+  color: #c0e1f7;
+  font-size: 0.85rem;
+}
+
+#dashboard a:hover {
+  background: #49565e;
+  color: #21272b;
+}
+
+.wrapper {
+  box-shadow: 3px 3px #718491;
+}
+
+.wrapper a,
+.wrapper a:focus,
+.warpper a:hover { 
+    color: #c0e1f7;
+}
+
+/*
+================= FIC RESULTS =================
+*/
+
+.work.blurb,
+.work.blurb a,
+.work h4.heading a{
+  color: #c0e1f7;
+  font-family: "Lucida Console";
+}
+
+.work blockquote,
+.work .tags,
+.work .series,
+.work .stats{
+  font-family: "Lucida Console";
+  font-size: 0.8rem;
+}
+
+.work .heading {
+  font-size: 0.85rem;
+}
+
+a.tag {
+  line-height: 1.45;
+  font-weight: normal;
+}
+
+/*
+================= WORK PAGE =================
+*/
+
+/* change width of info box */
+.meta dt {
+  width: 18%;
+}
+
+.meta dd {
+  width: 82%;
+}
+
+/*
+================= FOOTER =================
+*/
+
+#footer {
+  color: #c0e1f7;
+  background: #49565e;
+  box-shadow: 5px 5px #718491;
+}
+
+#footer .heading,
+#footer a {
+  color: #c0e1f7;
+  font-family: "Lucida Console";
+}
+
+/*
+================= BUTTONS AND SEARCH FIELDS =================
+*/
+
+.actions a:visited,
+.action:visited,
+.action a:link,
+.action a:visited .action,
+.action:link,
+.action:hover,
+.action:focus,
+.actions label,
+.actions a,
+.actions a:link,
+.actions a:hover,
+.actions a:focus,
+button,
+#dashboard a:focus,
+input[type="submit"],
+input[type="text"] {
+  border: none;
+  background-image: none;
+  background: #718491;
+  box-shadow: none;
+  color: #21272b;
+  font-family: "Lucida Console";
+}
+
+.action:hover,
+.actions a:hover,
+.actions input:hover,
+.actions label,
+.actions a:focus,
+.actions input:focus,
+label.action:hover,
+.action:focus {
+  color: #49565e;
+  box-shadow: none;
+  border: none;
+}
+
+.current {
+  background: #47555d;
+  border: none;
+  background-image: none;
+  box-shadow: none;
+}
+
+/*
+================= HEADINGS =================
+*/
+.heading {
+  font-family: "Lucida Console";
+  color: #c0e1f7;
+}
+
+h2 {
+  font-size: 1.1rem;
+    font-family: "Lucida Console";
+}
+
+h2.heading a,
+h2.heading a:hover {
+  color: #c0e1f7;
+}
+
+h4 {
+  font-size: 0.9rem;
+    font-family: "Lucida Console";
+}
+
+.blurb h4 a:link,
+h4.heading a:hover  {
+  color: #c0e1f7;
+}
+
+.comment h4.byline {
+  background: #21272b;
+}
+
+h3 {
+  font-size: 0.9rem;
+    font-family: "Lucida Console";
+}
+
+.splash .module h3 {
+  color: #c0e1f7;
+  font-size: 1.2rem;
+}
+
+/*
+================= TAG HIGHLIGHTING =================
+*/
+
+li.relationships a {
+  background: rgba(232, 78, 127, .5);
+}
+
+li.warnings a {
+  background: rgba(232, 126, 27, .5);
+}
+
+li.characters a {
+  background: rgba(36, 181, 65, .5);
+}
+
+/*
+================= POPUPS =================
+*/
+
+/* that box when you click on a question mark */
+#modal {
+  background: #49565e;
+}
+
+/* pop up notices */
+.required.notice,
+.flash.notice,
+.notice,
+form .notice {
+  color: #c0e1f7;
+  background: #49565e;
+  border: none;
+  box-shadow: 3px 3px #718491;
+}
+
+
+
+
+
+/* works on skins css page (description and settings) */
+blockquote.userstuff,
+dl.stats {
+    font-family: "Lucida Console";
+}
+
+
+
+
+
+
+
+/* main boxes of entry fields */
+fieldset,
+form.verbose legend {
+  background: #21272b;
+  box-shadow: 3px 3px #718491;
+  color: #c0e1f7;
+}
+
+/* fics on dashboard  (titles, author, category headings)*/
+.listbox .heading a:visited,
+.listbox .heading a,
+.listbox > .heading {
+    color: #c0e1f7;
+}
+
+li.comment, /* inbox boxes */
+/* fics on dashboard */
+.listbox,
+.listbox .index,
+/* inner boxes in field entry */
+fieldset fieldset,
+fieldset.listbox.group,
+fieldset ul.index.group {
+  background: #21272b;  
+  box-shadow: 3px 3px #718491;
+}
+
+input#skin_icon,
+input#skin_icon:focus {
+  background: #21272b;
+  box-shadow: none;
+  border: none;
+  font-family: "Lucida Console";
+}
+
+textarea,
+textarea:focus {
+  background: #49565e;
+  font-family: "Lucida Console";
+  color: #c0e1f7;
+  box-shadow: none;
+  font-size: 0.8rem;
+}
+
+form.verbose legend {
+    font-family: "Lucida Console";
+}
+
+dt.required label,
+form dd.required,
+dt label {
+  font-family: "Lucida Console";
+  color: #c0e1f7;
+  /*font-size: 0.85rem*/
+}
+
+/* work filters */
+.filters .expander,
+li label {
+  color: #c0e1f7;
+  font-family: "Lucida Console";
+}
+
+/* remove background colour from subscription buttons */
+dl.index dd {
+  background: none;
+}
+
+/* remove background from last visited in hisotry*/
+.reading h4.viewed {
+  background: none;
+}
