@@ -264,14 +264,25 @@ a.tag {
 .actions a:focus,
 button,
 #dashboard a:focus,
-input[type="submit"],
-input[type="text"] {
+input[type="submit"] {
   border: none;
   background-image: none;
   background: #718491;
   box-shadow: none;
   color: #21272b;
   font-family: "Lucida Console";
+}
+
+/* text fields */
+input[type="text"], 
+textarea,
+textarea:focus {
+  border: 1px solid #c0e1f7;
+  background: #718491;
+  box-shadow: none;
+  color: #21272b;
+  font-family: "Lucida Console";
+  font-size: 0.8rem;
 }
 
 .action:hover,
@@ -423,16 +434,6 @@ input#skin_icon:focus {
   box-shadow: none;
   border: none;
   font-family: "Lucida Console";
-}
-
-/* affects resizable text inputs (work contents, summary, etc) */
-textarea,
-textarea:focus {
-  background: #718491;
-  font-family: "Lucida Console";
-  color: #21272b;
-  box-shadow: none;
-  font-size: 0.8rem;
 }
 
 form.verbose legend {
