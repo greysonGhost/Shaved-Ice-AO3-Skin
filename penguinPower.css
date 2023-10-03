@@ -215,6 +215,13 @@ a.tag {
   width: 82%;
 }
 
+/* dropdown menus (download, chapter index) */
+.secondary {
+  background: #49565e;
+  border: none;
+  box-shadow: 2px 2px #718491;
+}
+
 /* 
 ================= STATISTICS =================
 */
