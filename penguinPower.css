@@ -206,13 +206,9 @@ a.tag {
 ================= WORK PAGE =================
 */
 
-/* change width of info box */
-.meta dt {
+/* shorten spacing in info box */
+.work.meta.group dt {
   width: 18%;
-}
-
-.meta dd {
-  width: 82%;
 }
 
 /* dropdown menus (download, chapter index) */
