@@ -7,6 +7,12 @@ body {
   color: #c0e1f7; /* works for basically everything but links */
 }
 
+/* basic text */
+a:visited,
+a:visited:hover {
+    color: #c0e1f7;
+}
+
 /*
 ================= LOGO =================
 */
