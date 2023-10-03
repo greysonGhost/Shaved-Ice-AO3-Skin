@@ -99,6 +99,13 @@ a:visited:hover {
     background: #49565e;
 }
 
+/* search tool tip */
+.search [role="tooltip"] {
+  background: #49565e;
+  box-shadow: 2px 2px #718491;
+  border: none;
+}
+
 /*
 ================= HOMEPAGE =================
 */
