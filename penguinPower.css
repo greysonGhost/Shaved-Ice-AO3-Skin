@@ -5,6 +5,7 @@
 body {
   background: #21272b;
   color: #c0e1f7; /* works for basically everything but links */
+  font-family: "Lucida Console";
 }
 
 /* basic text */
