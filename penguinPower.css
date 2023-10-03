@@ -118,6 +118,11 @@ div.latest.tweets.module {
   width: 100%;
 }
 
+/* increases all news and my history links */
+.splash .link a {
+  font-size: .65em;
+}
+
 /*
 ================= DASHBOARD =================
 */
