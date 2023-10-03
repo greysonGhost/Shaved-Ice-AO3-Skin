@@ -201,6 +201,14 @@ a.tag {
   width: 82%;
 }
 
+/* 
+================= STATISTICS =================
+*/
+
+.statistics .index li:nth-of-type(2n) {
+  background: #49565e;
+}
+
 /*
 ================= FOOTER =================
 */
