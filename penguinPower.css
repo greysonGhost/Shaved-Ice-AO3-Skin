@@ -358,6 +358,8 @@ li.characters a {
 /* that box when you click on a question mark */
 #modal {
   background: #49565e;
+  box-shadow: none;
+  border: 4px solid #21272b;
 }
 
 /* pop up notices */
