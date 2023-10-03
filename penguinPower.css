@@ -407,11 +407,12 @@ input#skin_icon:focus {
   font-family: "Lucida Console";
 }
 
+/* affects resizable text inputs (work contents, summary, etc) */
 textarea,
 textarea:focus {
-  background: #49565e;
+  background: #718491;
   font-family: "Lucida Console";
-  color: #c0e1f7;
+  color: #21272b;
   box-shadow: none;
   font-size: 0.8rem;
 }
