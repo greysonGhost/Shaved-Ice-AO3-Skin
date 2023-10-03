@@ -394,7 +394,8 @@ li.comment, /* inbox boxes */
 /* inner boxes in field entry */
 fieldset fieldset,
 fieldset.listbox.group,
-fieldset ul.index.group {
+fieldset ul.index.group,
+.removeme fieldset {
   background: #21272b;  
   box-shadow: 3px 3px #718491;
 }
