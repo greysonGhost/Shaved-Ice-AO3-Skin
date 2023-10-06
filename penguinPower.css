@@ -15,6 +15,12 @@ a:visited:hover {
   color: #46565F;
 }
 
+#footer a:hover,
+#footer a:visited,
+#footer a:visited:hover {
+  color: #21272b;
+}
+
 /*
 ================= LOGO =================
 */
