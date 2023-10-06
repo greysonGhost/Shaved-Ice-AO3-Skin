@@ -1,5 +1,5 @@
 /*
-================= main background colour =================
+================= main =================
 */
 
 body {
@@ -19,6 +19,11 @@ a:visited:hover {
 #footer a:visited,
 #footer a:visited:hover {
   color: #21272b;
+}
+
+/* question mark help */
+.heading a.question {
+font-size: 100%;
 }
 
 /*
