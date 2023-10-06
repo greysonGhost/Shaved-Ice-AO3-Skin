@@ -234,10 +234,13 @@ dd.language {
 }
 
 /* tag box */
+/* justify-content not allowed on ao3 */
+/*
 #main.works-show.region .wrapper { 
   display: flex; 
   justify-content: center;
 }
+*/
 
 .work.meta.group { 
   box-shadow: 3px 3px #718491; 
