@@ -55,13 +55,17 @@ a:visited:hover {
 #greeting a:hover,
 #greeting a:focus,
 #greeting a.dropdown-toggle:hover,
-#greeting a.dropdown-toggle:focus,
-#greeting ul.menu.dropdown-menu li a:hover,
 #greeting ul.menu.dropdown-menu li a:focus,
 #greeting .user a:hover,
 #greeting .user a:focus,
 #greeting .dropdown:hover a {
   background: #49565e;
+}
+
+#greeting ul.menu.dropdown-menu li a:hover,
+#greeting a.dropdown-toggle:focus { 
+  background: #718491;  
+  color: #21272b;
 }
 
 /*
@@ -105,6 +109,17 @@ a:visited:hover {
   background: #49565e;
   box-shadow: 2px 2px #718491;
   border: none;
+}
+
+/* hover */
+#header .primary .dropdown:hover a:hover,
+#header .primary .dropdown a:focus { 
+  background: #718491; 
+  color: #21272b;
+}
+
+#header .dropdown:hover a { 
+  background: #49565e;
 }
 
 /*
@@ -206,9 +221,31 @@ a.tag {
 ================= WORK PAGE =================
 */
 
-/* shorten spacing in info box */
-.work.meta.group dt {
-  width: 18%;
+/* fonts */
+.userstuff,
+.notes.module,
+blockquote { 
+  font-family: "Lucida Console"; 
+  font-size: 0.95em;
+}
+
+dd.language { 
+  font-size: 0.8rem;
+}
+
+/* tag box */
+#main.works-show.region .wrapper { 
+  display: flex; 
+  justify-content: center;
+}
+
+.work.meta.group { 
+  box-shadow: 3px 3px #718491; 
+  width: 80%;
+}
+
+.wrapper { 
+  box-shadow: none;
 }
 
 /* dropdown menus (download, chapter index) */
@@ -216,6 +253,15 @@ a.tag {
   background: #49565e;
   border: none;
   box-shadow: 2px 2px #718491;
+}
+
+/* comment section */
+.even.comment,.even.comment h4.byline { 
+  background: #46565F;
+}
+
+.comment div.icon { 
+  border-bottom: none;
 }
 
 /* comment box */
