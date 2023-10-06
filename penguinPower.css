@@ -218,6 +218,29 @@ a.tag {
   box-shadow: 2px 2px #718491;
 }
 
+/* comment box */
+#add_comment fieldset {
+  box-shadow: none;
+  border: 3px solid white;
+}
+
+#add_comment div.comment {
+  border: none;
+}
+
+/* save a bookmark */
+#bookmark_form_placement.wrapper {
+  border: 3px solid #718491;
+  box-shadow: none;
+  margin: 0px 3px;
+}
+
+#bookmark-form form {
+  background: #21272b;
+  border: none;
+  box-shadow: none;
+}
+
 /* 
 ================= STATISTICS =================
 */
