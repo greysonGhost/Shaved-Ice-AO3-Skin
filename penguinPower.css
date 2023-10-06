@@ -9,9 +9,10 @@ body {
 }
 
 /* basic text */
+a:hover,
 a:visited,
 a:visited:hover {
-    color: #c0e1f7;
+  color: #46565F;
 }
 
 /*
