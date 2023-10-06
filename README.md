@@ -15,7 +15,8 @@ a blue/greyish ao3 skin
 ![#c0e1f7](https://place-hold.it/80/c0e1f7/000000&text=c0e1f7)
 
 ### Font
-Lucida Console
+Lucida Console on desktop  
+Default monospace on mobile
 
 ### Features
 - tag highlighting (relationships, characters, warnings)
