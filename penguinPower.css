@@ -303,6 +303,16 @@ dd.language {
 }
 
 /* 
+================= BOOKMARKS =================
+*/
+
+h4.heading a:hover,
+h5.byline.heading a:hover,
+dl.stats dd a:hover {
+  color: #46565F;
+}
+
+/* 
 ================= STATISTICS =================
 */
 
