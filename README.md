@@ -20,7 +20,7 @@ Default font on mobile
 
 ### Features
 - tag highlighting (relationships, characters, warnings)
-- removed tweets from homepage and marked for later is extended across
+- removed tweets from homepage
 
 ### How to Install:
 
