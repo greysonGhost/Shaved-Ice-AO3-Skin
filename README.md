@@ -36,10 +36,11 @@ You'll need to create multiple parts and then join them together to get full mob
 ##### Mobile Part
 6. Give it a unique title. (I used penguinPower (mobile) - [username])
 7. Copy-Paste penguinPowerMobile.css into the CSS box
-8. (Optional) Advanced -> Check off Parent Only
+8. Advanced -> Media -> Check off only screen and (max-width: 42em)
+9. (Optional) Advanced -> Check off Parent Only
 
 ##### Combining the Skins
-9. Create Site Skin and name it (e.g. penguinPower - [username])
-10. Advanced -> Parent Skins -> Add Parent Skin
-11. Search for the skins you just made and add both of them
-12. Submit -> Use
+10. Create Site Skin and name it (e.g. penguinPower - [username])
+11. Advanced -> Parent Skins -> Add Parent Skin
+12. Search for the skins you just made and add both of them
+13. Submit -> Use
