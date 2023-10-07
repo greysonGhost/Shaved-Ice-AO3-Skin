@@ -1,0 +1,25 @@
+.javascript #outer { 
+  background: #21272b;
+}
+
+#header .primary ul.menu.dropdown-menu { 
+  background: #49565e; 
+  box-shadow: 3px 3px #718491;
+}
+
+h2.title.heading { 
+  font-size: 1.3rem;
+}
+
+h3.byline.heading { 
+  font-size: 1.05rem;
+}
+
+div.summary.module blockquote,
+div.notes.module blockquote { 
+  font-size: 0.8rem;
+}
+
+.work.meta.group { 
+  box-shadow: 3px 3px #718491;
+}
