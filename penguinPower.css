@@ -30,6 +30,11 @@ font-size: 100%;
 ================= LOGO =================
 */
 
+#header .logo {
+  content: url("https://i.imgur.com/55nzdLg.png");
+  padding-right: 8px;
+}
+
 #header h1.heading a {
   color: #c0e1f7;
   font-family: "Lucida Console";
