@@ -99,7 +99,7 @@ font-size: 100%;
 #header .primary ul.menu.dropdown-menu {
   background: #49565e;
   box-shadow: 3px 3px #718491;
-  width: fit-content;
+  min-width: 20rem;
 }
 
 /* dropdown items */
@@ -158,10 +158,6 @@ a.tag:hover {
 /* remove tweets and widen random marked for later */
 div.latest.tweets.module {
   display: none !important;
-}
-
-.random.readings.module.odd {
-  width: 100%;
 }
 
 /* increases all news and my history links */
@@ -261,7 +257,6 @@ dd.language {
 
 .work.meta.group { 
   box-shadow: 3px 3px #718491; 
-  width: 80%;
 }
 
 .wrapper { 
@@ -483,7 +478,12 @@ form .notice {
   box-shadow: 3px 3px #718491;
 }
 
-
+/* this work could have adult content warning */
+.caution { 
+  border: 2px solid #718491; 
+  box-shadow: none; 
+  background: #c0e1f7;
+}
 
 
 
