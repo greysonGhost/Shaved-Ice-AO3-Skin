@@ -563,3 +563,8 @@ dl.index dd {
 .reading h4.viewed {
   background: none;
 }
+
+/* remove background from own bookmarks */
+li.blurb {
+  background: none;
+}
