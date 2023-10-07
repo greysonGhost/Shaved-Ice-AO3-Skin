@@ -16,7 +16,7 @@ a blue/greyish ao3 skin
 
 ### Font
 Lucida Console on desktop  
-Default monospace on mobile
+Default font on mobile
 
 ### Features
 - tag highlighting (relationships, characters, warnings)
