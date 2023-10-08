@@ -246,21 +246,25 @@ dd.language {
   font-size: 0.8rem;
 }
 
-/* tag box */
-/* justify-content not allowed on ao3 */
-/*
-#main.works-show.region .wrapper { 
-  display: flex; 
-  justify-content: center;
-}
-*/
-
 .work.meta.group { 
   box-shadow: 3px 3px #718491; 
 }
 
 .wrapper { 
   box-shadow: none;
+}
+
+/* divider between series */
+span.series .previous + .divider::before { 
+  content: "\0020\2726";
+}
+
+span.series .position + .divider::after { 
+  content: "\2726\0020";
+}
+
+span.series .divider { 
+  color: #c0e1f7;
 }
 
 /* dropdown menus (download, chapter index) */
