@@ -254,6 +254,12 @@ dd.language {
   box-shadow: none;
 }
 
+/* hide collections */
+dt.collections,
+dd.collections { 
+  display: none;
+}
+
 /* divider between series */
 span.series .previous + .divider::before { 
   content: "\0020\2726";
@@ -485,7 +491,8 @@ li.characters a {
 .required.notice,
 .flash.notice,
 .notice,
-form .notice {
+form .notice,
+#kudos_message {
   color: #c0e1f7;
   background: #49565e;
   border: none;
@@ -506,10 +513,6 @@ blockquote.userstuff,
 dl.stats {
     font-family: "Lucida Console";
 }
-
-
-
-
 
 
 
