@@ -21,6 +21,7 @@ Default font on mobile
 ### Features
 - tag highlighting (relationships, characters, warnings)
 - removed tweets from homepage
+- hides collections on fic pages
 
 ### How to Install:
 
