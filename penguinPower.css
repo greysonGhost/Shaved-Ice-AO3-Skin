@@ -587,3 +587,8 @@ dl.index dd {
 li.blurb {
   background: none;
 }
+
+/* added tags */
+li.added.tag {
+  color: #c0e1f7;
+}
