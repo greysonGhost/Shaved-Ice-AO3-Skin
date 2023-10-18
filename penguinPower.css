@@ -500,10 +500,12 @@ form .notice,
 }
 
 /* this work could have adult content warning */
+/* also for draft popus and the such */
 .caution { 
   border: 2px solid #718491; 
   box-shadow: none; 
   background: #c0e1f7;
+  color: #21272b;
 }
 
 
