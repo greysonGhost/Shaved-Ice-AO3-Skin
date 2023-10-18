@@ -1,5 +1,5 @@
 /*
-================= main =================
+================= MAIN =================
 */
 
 body {
@@ -404,6 +404,33 @@ label.action:hover,
   box-shadow: none;
 }
 
+/* tag searching */
+
+.autocomplete.dropdown { 
+  background: none;
+}
+
+.autocomplete div.dropdown ul { 
+  background: #49565e; 
+  color: #c0e1f7;
+}
+
+.autocomplete div.dropdown .even:hover,
+.autocomplete div.dropdown .odd:hover { 
+  background: #718491; 
+  color: #21272b;
+}
+
+#work_search_sort_column,
+#work_search_language_id { 
+  background: #718491; 
+  border: 1px solid #c0e1f7;
+}
+
+.autocomplete .notice { 
+  color: #c0e1f7;
+}
+
 /*
 ================= HEADINGS =================
 */
@@ -508,6 +535,16 @@ form .notice,
   color: #21272b;
 }
 
+/*
+================= POSTING =================
+*/
+
+/* previewing a work before posting */
+.draft .work,
+.draft { 
+  background: #21272b;
+}
+
 
 
 /* works on skins css page (description and settings) */
@@ -515,8 +552,6 @@ blockquote.userstuff,
 dl.stats {
     font-family: "Lucida Console";
 }
-
-
 
 /* main boxes of entry fields */
 fieldset,
