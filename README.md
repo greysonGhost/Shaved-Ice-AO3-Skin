@@ -1,11 +1,11 @@
-# PenguinPower-AO3-Skin
+# Shaved-Ice-AO3-Skin
 a blue-ish/grey ao3 skin
 
 ### Previews
 
 Desktop   |  Mobile
 :--------:|:---------:
-<img src="https://github.com/greysonGhost/PenguinPower-AO3-Skin/blob/main/Preview-Desktop.png?raw=true" alt="a desktop screenshot of an archive of our own page showing fic results for Witch Hat Atelier with a blueish-grey theme" height="400"/>  |  <img src="https://github.com/greysonGhost/PenguinPower-AO3-Skin/blob/main/Preview-Mobile.jpg?raw=true" alt="a mobile screenshot of an archive of our own page showing fic results for Witch Hat Atelier with a blueish-grey theme" height="400"/>
+<img src="https://github.com/greysonGhost/Shaved-Ice-AO3-Skin/blob/main/Preview-Desktop.png?raw=true" alt="a desktop screenshot of an archive of our own page showing fic results for Witch Hat Atelier with a blueish-grey theme" height="400"/>  |  <img src="https://github.com/greysonGhost/Shaved-Ice-AO3-Skin/blob/main/Preview-Mobile.jpg?raw=true" alt="a mobile screenshot of an archive of our own page showing fic results for Witch Hat Atelier with a blueish-grey theme" height="400"/>
 
 ### Colours
 
