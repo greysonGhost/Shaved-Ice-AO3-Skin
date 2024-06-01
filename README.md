@@ -30,18 +30,18 @@ Default font on mobile
 You'll need to create multiple parts and then join them together to get full mobile compatability
 
 ##### Desktop (Main) Part
-3. Give it a unique title. (I used penguinPower (core) - [username])
-4. Copy-Paste penguinPower.css into the CSS box
+3. Give it a unique title. (I used shavedIce (core) - [username])
+4. Copy-Paste shavedIce.css into the CSS box
 5. (Optional) Advanced -> Check off Parent Only
 
 ##### Mobile Part
-6. Give it a unique title. (I used penguinPower (mobile) - [username])
-7. Copy-Paste penguinPowerMobile.css into the CSS box
+6. Give it a unique title. (I used shavedIce (mobile) - [username])
+7. Copy-Paste shavedIceMobile.css into the CSS box
 8. Advanced -> Media -> Check off only screen and (max-width: 42em)
 9. (Optional) Advanced -> Check off Parent Only
 
 ##### Combining the Skins
-10. Create Site Skin and name it (e.g. penguinPower - [username])
+10. Create Site Skin and name it (e.g. shavedIce - [username])
 11. Advanced -> Parent Skins -> Add Parent Skin
 12. Search for the skins you just made and add both of them
 13. Submit -> Use
